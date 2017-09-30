@@ -35,8 +35,8 @@ namespace Fortune_Teller
             {
                 Console.WriteLine("Aye that's fine. ROYGBIV is the following colors. \nRed \nOrange \nYellow \nGreen \nBlue \nIndigo \nViolit \nAlright so now which one of these colors is your favorite one?");
                 favColor = Console.ReadLine();
+                Console.WriteLine("\n");
             }
-            Console.WriteLine("\n");
 
             Console.WriteLine("Interesting indeed! How many siblings do you have?");
             int siblingNum = int.Parse(Console.ReadLine());
@@ -51,7 +51,7 @@ namespace Fortune_Teller
             }
             else
             {
-                Console.WriteLine("\nI don't get paid enough to not give out fortunes");
+                Console.WriteLine("\nNo fortune? Urghh! I don't get paid enough for this");
             }
 
 
