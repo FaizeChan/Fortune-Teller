@@ -45,6 +45,13 @@ namespace Fortune_Teller
 
             Console.WriteLine("Aye Turn Up! What's your favorite ROYGBIV color? \nIf you don't know the ROYGBIV colors just enter (help)");
             string favColor = Console.ReadLine().ToLower().Trim();
+            string colorRed = "red";
+            string colorOrange = "orange";
+            string colorYellow = "yellow";
+            string colorGreen = "green";
+            string colorBlue = "blue";
+            string colorIndigo = "indigo";
+            string colorViolit = "violit";
             string userHelp = "help";
             Console.WriteLine("\n");
 
@@ -57,6 +64,10 @@ namespace Fortune_Teller
 
             Console.WriteLine("Interesting indeed! How many siblings do you have?");
             int siblingNum = int.Parse(Console.ReadLine());
+            int siblingZero = 0;
+            int siblingOne = 1;
+            int siblingTwo = 2;
+            int siblingThree = 3;
 
             Console.WriteLine("\nPerfect, I believe I have enough information to declare your fortune!\nAre you ready? Not like you have a choice in the matter Mwahaha \nType in either(Yes, or No)");
             string readyUp = Console.ReadLine().ToLower().Trim();
@@ -90,56 +101,111 @@ namespace Fortune_Teller
              
             if (birthMonth == one)
             {
-                Console.WriteLine("Ooooo, you will also have a staggering amount of 2 Million dollars in the bank");
+                Console.WriteLine("Ooooo, you will also have a staggering amount of $10,000,000.00 in the bank,");
             }
             else if (birthMonth == two)
             {
-                Console.WriteLine("Ooooo, you will also have a staggering amount of 2 Million dollars in the bank");
+                Console.WriteLine("Ooooo, you will also have a staggering amount of $10,000,000.00 in the bank,");
             }
             else if (birthMonth == three)
             {
-                Console.WriteLine("Ooooo, you will also have a staggering amount of 2 Million dollars in the bank");
+                Console.WriteLine("Ooooo, you will also have a staggering amount of $10,000,000.00 in the bank,");
             }
             else if (birthMonth == four)
             {
-                Console.WriteLine("Ooooo, you will also have a staggering amount of 2 Million dollars in the bank");
+                Console.WriteLine("Ooooo, you will also have a staggering amount of $10,000,000.00 in the bank,");
             }
             else if (birthMonth == five)
             {
-                Console.WriteLine("Pretty nice, you will also have a wopping amount of $500,000.00 in the bank");
+                Console.WriteLine("Pretty nice, you will also have a wopping amount of $500,000.00 in the bank,");
             }
             else if (birthMonth == six)
             {
-                Console.WriteLine("Pretty nice, you will also have a wopping amount of $500,000.00 in the bank");
+                Console.WriteLine("Pretty nice, you will also have a wopping amount of $500,000.00 in the bank,");
             }
             else if (birthMonth == seven)
             {
-                Console.WriteLine("Pretty nice, you will also have a wopping amount of $500,000.00 in the bank");
+                Console.WriteLine("Pretty nice, you will also have a wopping amount of $500,000.00 in the bank,");
             }
             else if (birthMonth == eight)
             {
-                Console.WriteLine("Pretty nice, you will also have a wopping amount of $500,000.00 in the bank");
+                Console.WriteLine("Pretty nice, you will also have a wopping amount of $500,000.00 in the bank,");
             }
             else if (birthMonth == nine)
             {
-                Console.WriteLine("You will also have a deceant amount of $20,000.00 in the bank");
+                Console.WriteLine("You will also have a deceant amount of $20,000.00 in the bank,");
             }
             else if (birthMonth == ten)
             {
-                Console.WriteLine("You will also have a deceant amount of $20,000.00 in the bank");
+                Console.WriteLine("You will also have a deceant amount of $20,000.00 in the bank,");
             }
             else if (birthMonth == eleven)
             {
-                Console.WriteLine("You will also have a deceant amount of $20,000.00 in the bank");
+                Console.WriteLine("You will also have a deceant amount of $20,000.00 in the bank,");
             }
             else if (birthMonth == twelve)
             {
-                Console.WriteLine("You will also have a deceant amount of $20,000.00 in the bank");
+                Console.WriteLine("You will also have a deceant amount of $20,000.00 in the bank,");
             }
             else
             {
-                Console.WriteLine("tsk tsk... but sadly you will have $0.00 in the bank");
+                Console.WriteLine("tsk tsk... but sadly you will have $0.00 in the bank,");
             }
+
+            if (siblingNum == siblingZero)
+            {
+                Console.WriteLine("a vacation home in Hawaii, you're so lucky");
+            }
+            else if (siblingNum == siblingOne)
+            {
+                Console.WriteLine("a vacation home in California pretty cool");
+            }
+            else if (siblingNum == siblingTwo)
+            {
+                Console.WriteLine("a vacation home in Orlando Florida, wait a minute... Isn't that Disney World? Oh wow you're lucky");
+            }
+            else if (siblingNum >= siblingThree) 
+            {
+                Console.WriteLine("a vacation home in Tokeyo! I want to go! Take me with you!!");
+            }
+            else
+            {
+                Console.WriteLine("uhmm yeah, sorry to say but your vacation home is going to be in your mothers basement" + "BAD vacation home indeed");
+            }
+
+            if (favColor == colorRed)
+            {
+                Console.WriteLine("Oh yeah! You'll also be riding in a luxury Escalade. Living the fancy life I see.");
+            }
+            else if (favColor == colorOrange)
+            {
+                Console.WriteLine("Also you'll be riding in a soccor mom van. Hey, I don't come up with the fortunes. I just tell them to you.");
+            }
+            else if (favColor == colorYellow)
+            {
+                Console.WriteLine("Wow... \n \nThis is a big one. You'll be cruising in an actual cruise ship, and it's all yours. Congrats!!");
+            }
+            else if (favColor == colorGreen)
+            {
+                Console.WriteLine("Hold up... \n \n OMG... \n \n You will own your own airline!!! It will be called (" + firstName + " " + "Takes Flight!) Congrats!!");
+            }
+            else if (favColor == colorBlue)
+            {
+                Console.WriteLine(" You'll also be riding a motorcycle, pretty cool");
+            }
+            else if (favColor == colorIndigo)
+            {
+                Console.WriteLine("You'll also have a Hummer Limo. Aye I see you flexing, pretty slick.");
+            }
+            else if (favColor == colorViolit)
+            {
+                Console.WriteLine("You'll also be riding in a Audi R8. You better drive safe!");
+            }
+            else
+            {
+                Console.WriteLine(" hmm... i don't see any types of transportation in your future. Its ok though. Your legs will work just fine!");
+            }
+
 
 
 
